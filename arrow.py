@@ -184,14 +184,6 @@ def start():
       gamedisplay.blit(text,(355,215))
       text = font.render(str(format((dodged+score+green_boxes)/3,'.2f')),True,black)
       gamedisplay.blit(text,(485,215))
-
-##      dodged2 = 
-##      if dodged != dodged2:
-##        dodged2 = dodged
-##      else:
-##        dodged 
-##        
-      
       
       while True:
         for event in pygame.event.get():
